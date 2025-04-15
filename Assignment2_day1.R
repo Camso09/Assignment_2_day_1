@@ -17,3 +17,4 @@ p_load("ggbiplot", "factoextra", "kableExtra", "broom", "ggrepel")
 p_load('tidyverse', 'DESeq2', 'DT', 'ggrepel')
 
 renv::snapshot()
+

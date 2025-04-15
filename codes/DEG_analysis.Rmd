@@ -11,11 +11,11 @@ params:
   covariate: patient
   control_group: 'C'
   treatment_group: 'N'
-  alpha: 0.1
+  alpha: 0.2
   lfc_threshold: 0
   output_dir: ../results
   plot_volcano: yes
-  top_genes: 10
+  top_genes: 20
 ---
 
 <!-- This code chunk sets global options for all code chunks in the RMarkdown document using `knitr::opts_chunk$set()`. Here, `echo = TRUE` is applied as the default, so code in all chunks will be displayed in the output unless individually overridden. Setting `echo = TRUE` helps readers see the code behind each result. The chunk itself has `echo=FALSE`, so this setup line won’t be printed in the final document. -->
